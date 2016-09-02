@@ -13,6 +13,14 @@
     </head>
 
     <body>
+    	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.7&appId=1240322479346582";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
         <div class="container" id="page-container">
             <h1 id="app-icon">
                 <span class="glyphicon glyphicon-cutlery"></span> 
@@ -29,6 +37,7 @@
             <a href = "drink.html" class="btn btn-success btn-lg" role="button">I want a drink!</a>
             
         </div>
+        <div class="fb-share-button" data-href="http://alicefoodfinder.azurewebsites.net/meal.html" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Falicefoodfinder.azurewebsites.net%2Fmeal.html&amp;src=sdkpreparse">Share</a></div>
         <!-- 
             NB: You generally do not want to publically expose the server structure (eg. ./node_modules/...)
             will sort that in later bootcamps with task-runners and the like.
