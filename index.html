@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Food Finder</title>
+        
+        <!--Boostrap's CSS-->
+        <link rel="stylesheet" type="text/css" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <!--Custom CSS-->
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+        <!--SweetAlert CSS-->
+		<link rel="stylesheet" href="node_modules/sweetalert/dist/sweetalert.css">
+		
+    </head>
+
+    <body>
+        <div class="container" id="page-container">
+            <h1 id="app-icon">
+                <span class="glyphicon glyphicon-cutlery"></span> 
+            </h1>
+            <h1 id="app-name">
+                Food Finder
+            </h1>
+            
+            <h2 id="page-description">
+                Let me find a meal or drink that you might like!
+            </h2>
+
+            <a href = "meal.html" class="btn btn-success btn-lg" role="button">I want a meal!</a>
+            <a href = "drink.html" class="btn btn-success btn-lg" role="button">I want a drink!</a>
+            
+        </div>
+        <!-- 
+            NB: You generally do not want to publically expose the server structure (eg. ./node_modules/...)
+            will sort that in later bootcamps with task-runners and the like.
+            For now this is just a demonstration.
+
+            Alternatively can use CDNs for bootstrap/jquery
+        -->
+
+        <!--jQuery Script-->
+        <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+        <!--Bootstrap Script-->
+        <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <!--SweetAlert Script-->
+		<script src="node_modules/sweetalert/dist/sweetalert.min.js"></script>
+        <!--Custom Script-->
+        <script src="./js/basic.js"></script>
+        <!--SoundCloud Reference-->
+        <script src="https://connect.soundcloud.com/sdk/sdk-3.1.2.js"></script>
+
+        <!--Tawk.to Script-->
+        <script type="text/javascript">
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/57c94010311d6c5be05735df/default';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+        })();
+        </script>
+        <!--Tawk.to is an open source chatting program: See more info at tawk.to-->
+    </body>
+</html>
