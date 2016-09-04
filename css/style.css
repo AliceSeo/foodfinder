@@ -13,7 +13,6 @@ body {
 
 body #page-container {
     background-color: rgba(0,0,0,0.5);
-    height: 400px;
     margin-top: 150px;
     text-align: center;
     margin-bottom: 40px;
@@ -31,47 +30,31 @@ h1#app-name {
     
 }
 
+h3#user-compliment{
+    color: greenyellow;
+    font-size: 25px;
+}
+
 h2#page-description{
+    padding-top: 5px;
+    padding-bottom: 5px;
     font-size: 30px;
 }
 
 
-body#fb-share{
-    text-align: center;
-}
-
-
-
-button#refreshbtn {
-    display:none;
-}
-
 img#selected-img{
-    width:150px;
-    height:150px;
-    padding:20px;
+    width:200px;
+    height:200px;
+    padding:5px;
     display:none;
     margin: 0 auto;
 }
 
-h2#page-header {
-    padding-top:20px;
-    padding-bottom:20px;
+h4#food-description{
+    font-size: 20px;
 }
 
-.btn-wrapper {
-    padding: 20px 0;
-}
 
 input#my-file-selector {
-    display:none;
-}
-
-#musicplayer{
-    padding:20px;
-    display:none;
-}
-
-h4#track-name {
     display:none;
 }
