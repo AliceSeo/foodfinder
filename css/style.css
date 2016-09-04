@@ -21,12 +21,12 @@ body #page-container {
 
 h1#app-icon {
     color: yellow;
-    font-size:80px;
+    font-size:50px;
 }
 
 h1#app-name {
     color: lightsalmon;
-    font-size: 84px;
+    font-size: 60px;
     font-family: "Cooper Black", "Cambria, Cochin, Georgia, Times, Times New Roman, serif"
     
 }
@@ -39,7 +39,7 @@ h3#user-compliment{
 h2#page-description{
     padding-top: 5px;
     padding-bottom: 5px;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 
