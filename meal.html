@@ -8,23 +8,20 @@
         <!--Custom CSS-->
         <link rel="stylesheet" type="text/css" href="./css/style.css">
         <!--SweetAlert CSS-->
-	<link rel="stylesheet" href="./css/sweetalert.css">
-	
+		<link rel="stylesheet" href="./css/sweetalert.css">
+		<!--Fakeloader CSS-->
+        <link rel="stylesheet" href="./css/fakeLoader.css">
+		
     </head>
 
     <body>
+        <!--fakeloader implementation-->
+        <div class="fakeloader"></div>
 
         <!--Facebook sharing implementation-->
     	<div id="fb-root"></div>
-	    <script>(function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s); js.id = id;
-            js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.7&appId=1240322479346582";
-            fjs.parentNode.insertBefore(js, fjs);
-	        }(document, 'script', 'facebook-jssdk'));
-        </script>
-        
+	    
+        <!--HTML source for this page-->
         <div class="container" id="page-container">
             <h1 id="app-icon">
                 <span class="glyphicon glyphicon-cutlery"></span> 
@@ -32,14 +29,15 @@
             <h1 id="app-name">
                 Food Finder
             </h1>
-            
+            <h3 id="user-compliment"></h3>
             <h2 id="page-description">
                 Let me find a meal that you might like!<br>
                 Please upload a picture of you :D
             </h2>
 
-            <!--Uploaded img by user will be stored here-->
+            <!--Recommended food or drink will appear here-->
             <img id="selected-img" src="">
+            <h4 id="food-description"></h4>
             <label class="btn btn-success btn-lg" for="my-file-selector">
                     <input id="my-file-selector" type="file">
                     Upload a picture of you
@@ -48,6 +46,7 @@
             <!--<a href="index.html" class="btn btn-success btn-lg" id="iWantADrink" role="button">Go back</a>-->
             <button type="button" class="btn btn-success btn-lg" id="goBack">Go back</button>
 
+            <!--Facebook sharing button-->
             <div class="fb-share-button" id="fb-share" data-href="http://alicefoodfinder.azurewebsites.net/" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Falicefoodfinder.azurewebsites.net%2Fmeal.html&amp;src=sdkpreparse">Share</a></div>
       
 	</div>
@@ -57,11 +56,30 @@
         <!--Bootstrap Script-->
         <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
         <!--SweetAlert Script-->
-	<script src="./js/sweetalert.min.js"></script>
-	<!--Custom Script-->
-        <script src="./js/meal_main.js"></script>
-        <!--SoundCloud Reference-->
-        <script src="https://connect.soundcloud.com/sdk/sdk-3.1.2.js"></script>
+		<script src="./js/sweetalert.min.js"></script>
+        <!--Custom Script-->
+        <script src="./js/main_meal.js"></script>
+        <!--Facebook Script-->
+        <script>(function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.7&appId=1240322479346582";
+            fjs.parentNode.insertBefore(js, fjs);
+	        }(document, 'script', 'facebook-jssdk'));
+        </script>
+        <!--Fakeloader Script-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="./js/fakeLoader.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $(".fakeloader").fakeLoader({
+                    timeToHide:1200,
+                    bgColor:"#9b59b6",
+                    spinner:"spinner7"
+                });
+            });
+        </script>
         <!--Tawk.to Script-->
         <script type="text/javascript">
         var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
