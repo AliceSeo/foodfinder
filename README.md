@@ -20,6 +20,15 @@ Also, Fakeloader appears when the user tries to move to other pages.
 Each page should have different effect. So, I have included relevant codes into HTML files rather than ts files.
 
 
+More information about Sweet alert can be seen in:
+http://t4t5.github.io/sweetalert/
+More information about Fakeloader can be seen in:
+http://joaopereirawd.github.io/fakeLoader.js/
+
+Note: I have found that Fakeloader jQuery object requires installation with bower.
+So, it was necessary to follow its instruction carefully to install it using bower.
+
+
 Facebook sharing button implementation is done by following the below link:
 
 https://developers.facebook.com
