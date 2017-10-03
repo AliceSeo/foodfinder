@@ -193,18 +193,18 @@ class Food{
 }
 
 //----------------List of All foods---------------------
-var pizza: Food = new Food("Pizza", "https://image-proxy.namuwikiusercontent.com/r/http%3A%2F%2Fimg1.cyberpr.co.kr%2F2013%2F10%2F201310302332097472.gif", "Everyone loves pizza. And I bet you will.");
-var hamburgSteak: Food = new Food("Japanese Ham-burger Steak", "https://image-proxy.namuwikiusercontent.com/r/http%3A%2F%2Fwww.gasengi.com%2Fdata%2Fcheditor4%2F1312%2F1bd1e655617f6c627d9f991e4e9dd471_1386601364.88.gif", "Japanese people eat a thick ham burger pattie as a steak with special sauce!");
-var pasta: Food = new Food("Cheesy Pasta","https://image-proxy.namuwikiusercontent.com/r/http%3A%2F%2Fupload.inven.co.kr%2Fupload%2F2010%2F06%2F25%2Fbbs%2Fi33243272.gif", "Sometimes we want to eat cheeeeesy stuff, right? :P");
-var iceCreamPie: Food = new Food("Walnut Ice cream pie","https://image-proxy.namuwikiusercontent.com/r/http%3A%2F%2Fi.giphy.com%2FYqAxkzjdPjJ4s.gif", "Have you heard of Ice Cream Pie? With crunchy walnut it will show you the Heaven!");
-var crepe: Food = new Food("Crepe with vanilla Ice cream", "https://image-proxy.namuwikiusercontent.com/r/http%3A%2F%2Fi.giphy.com%2FwkHfxM60qAJdC.gif", "Look at that CHOCOLATE sauce!! Can you stand this?!");
-var grilledEel: Food = new Food("Grilled Eel", "https://image-proxy.namuwikiusercontent.com/r/http%3A%2F%2Fwww.jjalbang.me%2Fskyim2008%2Fvxjt0hg1a.gif", "Yucky? NO!!! This tastes amazing and it is also really good for your stemina!");
-var steak: Food = new Food("Scotch Fillet Steak", "https://image-proxy.namuwikiusercontent.com/r/http%3A%2F%2Fi58.tinypic.com%2Ffbjqmo.gif", "Planning to eat steak? Then of course, scotch fillet steak!");
-var deepFriedChicken: Food = new Food("Deep Fried Korean Chicken","https://image-proxy.namuwikiusercontent.com/r/https%3A%2F%2F38.media.tumblr.com%2F3455c46004254f0c8d765c79cc884e0b%2Ftumblr_noll3kGAyY1tj7dq3o1_540.gif","with Beer, we call this 'Chi-Maek' meaning chicken and beer:D");
+var pizza: Food = new Food("Pizza", "http://media.giphy.com/media/2LqQkIPKNevkc/giphy.gif", "Everyone loves pizza. And I bet you will.");
+var hamburgSteak: Food = new Food("Japanese Ham-burger Steak", "http://cfile25.uf.tistory.com/image/23410C3352DB5C9E2DBF30", "Japanese people eat a thick ham burger pattie as a steak with special sauce!");
+var pasta: Food = new Food("Cheesy Pasta","http://cfile2.uf.tistory.com/image/21745736568BC116228A4F", "Sometimes we want to eat cheeeeesy stuff, right? :P");
+var iceCreamPie: Food = new Food("Strawberry Waffle","http://cfile7.uf.tistory.com/image/2473363652DB5C83183ECD", "Waffle, maple syrup and strawberry will show you the Heaven!");
+var crepe: Food = new Food("Vanilla Ice cream with choco Syrup", "http://cfile26.uf.tistory.com/image/2309353B52DB5C7A2BA055", "Look at that CHOCOLATE sauce!! Can you stand this?!");
+var grilledEel: Food = new Food("Grilled Eel", "http://cfile8.uf.tistory.com/image/252CEE3B56570F6812FB84", "Yucky? NO!!! This tastes amazing and it is also really good for your stemina!");
+var steak: Food = new Food("Scotch Fillet Steak", "https://68.media.tumblr.com/694694c8df0a41829c2facd1b3e53a40/tumblr_o5hrlsfYmW1vr2vt8o1_500.gif", "Planning to eat steak? Then of course, scotch fillet steak!");
+var deepFriedChicken: Food = new Food("Korean Deep Fried Chicken","https://media.giphy.com/media/xlFUYARvMLg7C/giphy.gif","with Beer, we call this 'Chi-Maek' meaning chicken and beer:D");
 var koreanBBQ: Food = new Food("Korean BBQ", "http://ext.fmkorea.com/files/attach/images/3655304/157/051/041/8cf51a6b3681d4c9ef35b25f4d4ede1f.gif", "Korean BBQ. Grill it while you eat it!!");
 var eggBenedict: Food = new Food("Egg Benedict with smoked Salmon", "http://i.huffpost.com/gadgets/slideshows/295861/slide_295861_2415525_free.gif", "So traditional, well-known French dish! Poached egg is very healthy!");
 var sushi: Food = new Food("Maki Sushi (Roll sushi)", "http://33.media.tumblr.com/a9af7ffd8e2704d852feaa575583b792/tumblr_mr80w5oK6l1rdn0rdo3_500.gif", "Pretty, cute, Tasty sushi with full of fresh ingredients!");
 var chocolateIceCream: Food = new Food("Chocolate Ice cream Cake", "http://i.imgur.com/JRplAMd.gif", "OMG... yeah no one say No! to chocolate right?");
 var asianFriedRice: Food = new Food("Asian Style Fried Rice", "http://i.imgur.com/AA5P1Ag.gif", "Light fried rice with chicken breast. Don't forget to add some Mayo!!");
 var takoyaki: Food = new Food("Takoyaki (Octopus balls)", "https://media.tenor.co/images/0c756d061c6195d81f7d60bf2d1c2f92/raw", "Well-known Japanese street food! Minced octopus inside grilled balls!!");
-var ramen: Food = new Food("Instant Ramen", "http://cfile10.uf.tistory.com/image/275A7E4356571620283370", "Are you too busy to cook something fancy? Ok, then Ramen is your choice!!");
+var ramen: Food = new Food("Instant Ramen", "http://cfile5.uf.tistory.com/image/2138BE3A52DB5C722D7C43", "Are you too busy to cook something fancy? Ok, then Ramen is your choice!!");
