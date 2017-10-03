@@ -197,7 +197,7 @@ var pizza: Food = new Food("Pizza", "http://media.giphy.com/media/2LqQkIPKNevkc/
 var hamburgSteak: Food = new Food("Japanese Ham-burger Steak", "http://cfile25.uf.tistory.com/image/23410C3352DB5C9E2DBF30", "Japanese people eat a thick ham burger pattie as a steak with special sauce!");
 var pasta: Food = new Food("Cheesy Pasta","http://cfile2.uf.tistory.com/image/21745736568BC116228A4F", "Sometimes we want to eat cheeeeesy stuff, right? :P");
 var iceCreamPie: Food = new Food("Strawberry Waffle","http://cfile7.uf.tistory.com/image/2473363652DB5C83183ECD", "Waffle, maple syrup and strawberry will show you the Heaven!");
-var crepe: Food = new Food("Vanilla Ice cream with choco Syrup", "http://cfile26.uf.tistory.com/image/2309353B52DB5C7A2BA055", "Look at that CHOCOLATE sauce!! Can you stand this?!");
+var crepe: Food = new Food("Vanilla Ice cream with choco Syrup", "https://mblogthumb-phinf.pstatic.net/20150207_213/rlazmfflfk_1423235660262ukPzd_GIF/tumblr_mccnqvsviN1rjvjgmo1_500.gif?type=w2", "Look at that CHOCOLATE sauce!! Can you stand this?!");
 var grilledEel: Food = new Food("Grilled Eel", "http://cfile8.uf.tistory.com/image/252CEE3B56570F6812FB84", "Yucky? NO!!! This tastes amazing and it is also really good for your stemina!");
 var steak: Food = new Food("Scotch Fillet Steak", "https://68.media.tumblr.com/694694c8df0a41829c2facd1b3e53a40/tumblr_o5hrlsfYmW1vr2vt8o1_500.gif", "Planning to eat steak? Then of course, scotch fillet steak!");
 var deepFriedChicken: Food = new Food("Korean Deep Fried Chicken","https://media.giphy.com/media/xlFUYARvMLg7C/giphy.gif","with Beer, we call this 'Chi-Maek' meaning chicken and beer:D");
