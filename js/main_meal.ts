@@ -78,11 +78,11 @@ function processImage(callback) : void {
 
 function sendFaceRequest(file, callback) : void {
     $.ajax({
-        url: "https://api.projectoxford.ai/face/v1.0/detect?returnFaceAttributes=age,gender",
+        url: "https://westcentralus.api.cognitive.microsoft.com/face/v1.0/detect?returnFaceAttributes=age,gender",
         beforeSend: function (xhrObj) {
             // Request headers
             xhrObj.setRequestHeader("Content-Type", "application/octet-stream");
-            xhrObj.setRequestHeader("Ocp-Apim-Subscription-Key", "1b3db931b67143a68c4cdd73137ab9bd");
+            xhrObj.setRequestHeader("Ocp-Apim-Subscription-Key", "68addf4ed1fc46148b81b824fe25d92b");
         },
         type: "POST",
         data: file,
